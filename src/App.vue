@@ -1,12 +1,16 @@
 <script setup>
-import AppHeader from "./components/AppHeader.vue";
-import AppFooter from "./components/AppFooter.vue";
+import { RouterView } from 'vue-router'
+import AppHeader from './components/AppHeader.vue'
 </script>
 
 <template>
-  <AppHeader msg="ilyaize" />
-  <router-view></router-view>
-  <AppFooter />
+  <header>
+    <AppHeader />
+  </header>
+  <section class="">
+    <RouterView />
+  </section>
+  <footer class="bg-red-800">Footer</footer>
 </template>
 
 <style scoped></style>
