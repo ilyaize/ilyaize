@@ -10,7 +10,7 @@ import AppHeader from './components/AppHeader.vue'
   <section class="">
     <RouterView />
   </section>
-  <footer class="bg-red-800">Footer</footer>
+  <footer class="">Footer</footer>
 </template>
 
 <style scoped></style>
