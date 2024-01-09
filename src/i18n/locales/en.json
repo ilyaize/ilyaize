@@ -1,0 +1,25 @@
+{
+  "locale": {
+    "en": "English",
+    "he": "עברית"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "footer": {
+    "social": "Social",
+    "main": "Main"
+  },
+  "home": {
+    "header": "Welcome to my website!",
+    "p1": "Welcome to Ilya Aizenberg's portfolio. As an experienced web developer and designer, Ilya specializes in creating sleek, user-friendly websites. His expertise in front-end development ensures each project is not only visually appealing but also highly functional. Explore his work to see how he turns complex ideas into accessible digital solutions",
+    "p2": "This tutorial was brought to you by.",
+    "cta1": "Hire Me",
+    "cta2": "See more"
+  },
+  "about": {
+    "header": "About us"
+  }
+}

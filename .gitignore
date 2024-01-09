@@ -27,4 +27,5 @@ coverage
 *.sln
 *.sw?
 
-*.tsbuildinfo
+src/firebase/Config.js
+package-json.lock
