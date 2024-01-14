@@ -1,0 +1,22 @@
+{
+  "title": "Ilya Aizenberg",
+
+  "nav_home": "Home",
+  "nav_about": "About",
+  "nav_work": "Work",
+  "nav_contact": "Contact",
+
+  "home_title": "Hello there,",
+  "home_btn": "View My Works",
+  "home_p1": "I'm Ilya Aizenberg, a creative professional specialized in Web Development. Welcome to my portfolio where I showcase my journey through coding, creativity, and problem-solving in the digital world.",
+  "home_p2": "Whether you're here for professional collaboration or just to explore, I invite you to take a look at my projects, learn about my skills, and discover how my work can make a difference in the ever-evolving landscape of web technology.",
+
+  "about_title": "About",
+  "about_btn": "About",
+
+  "work_title": "Work",
+  "work_btn": "Work",
+
+  "contact_title": "Contact",
+  "contact_btn": "Contact"
+}
