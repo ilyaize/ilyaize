@@ -5,7 +5,7 @@ const localPath = useLocalePath();
   <div class="container mx-auto px-4">
     <!-- Hero Section -->
     <div class="hero pt-20">
-      <section class="max-w-6xl py-20 px-20">
+      <section class="max-w-6xl">
         <div class="text-center max-w-lg">
           <img
             src="../assets/profile.png"
@@ -19,7 +19,7 @@ const localPath = useLocalePath();
           <p class="mb-5">
             {{ $t("home_p2") }}
           </p>
-          <a href="#works" class="btn btn-primary">View My Works</a>
+          <a href="#works" class="btn btn-primary">{{ $t("home_btn") }}</a>
         </div>
         <div class="flex flex-wrap justify-center gap-10"></div>
       </section>
