@@ -9,7 +9,7 @@ const localPath = useLocalePath();
         <div class="text-center max-w-lg">
           <img
             src="../assets/profile.png"
-            class="h-60 rounded-full mx-auto mb-8"
+            class="h-60 rounded-full mx-auto mb-8 shadow-2xl"
             alt="Profile Photo"
           />
           <h1 class="mb-5 text-5xl font-bold">{{ $t("home_title") }}</h1>

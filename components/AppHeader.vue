@@ -4,12 +4,8 @@
     <nav class="navbar">
       <div class="flex-1 py-5">
         <NuxtLink class="flex" :to="localPath('/')">
-          <img src="../assets/logo.svg" class="h-12" />
-          <a
-            class="px-4 pt-2 normal-case font-bold text-xl bg-gradient-to-r from-indigo-500 to-pink-400 bg-clip-text text-transparent"
-            >{{ $t("title") }}</a
-          ></NuxtLink
-        >
+          <img src="../assets/logo.svg" class="h-12 shadow-lg rounded-full" />
+        </NuxtLink>
       </div>
       <div class="hidden md:flex">
         <ul class="menu-horizontal p-0">
@@ -18,7 +14,9 @@
           </li>
 
           <li class="btn btn-link no-underline">
-            <NuxtLink :to="localPath('/about')">{{ $t("nav_about") }}</NuxtLink>
+            <NuxtLink :to="localPath('/#about')">{{
+              $t("nav_about")
+            }}</NuxtLink>
           </li>
 
           <li class="btn btn-link no-underline">
@@ -32,7 +30,7 @@
           </li>
 
           <LangSwitcher />
-          <label class="swap swap-rotate">
+          <label class="swap swap-rotate px-3">
             <!-- this hidden checkbox controls the state -->
             <input
               type="checkbox"
@@ -42,7 +40,7 @@
 
             <!-- sun icon -->
             <svg
-              class="swap-on fill-current w-5 h-5"
+              class="swap-on fill-indigo-500 w-5 h-5"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
             >
@@ -53,7 +51,7 @@
 
             <!-- moon icon -->
             <svg
-              class="swap-off fill-current w-5 h-5"
+              class="swap-off fill-indigo-500 w-5 h-5"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
             >
@@ -69,7 +67,7 @@
         @click="toggleNav"
         class="md:hidden flex text-gray-400 hover:text-gray-600 focus:outline-none focus:text-gray-600"
       >
-        <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current">
+        <svg viewBox="0 0 24 24" class="w-6 h-6 fill-indigo-500">
           <path
             fill-rule="evenodd"
             d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
@@ -106,7 +104,7 @@
 
           <!-- sun icon -->
           <svg
-            class="swap-on fill-current w-5 h-5"
+            class="swap-on fill-indigo-500 w-5 h-5"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >
@@ -117,7 +115,7 @@
 
           <!-- moon icon -->
           <svg
-            class="swap-off fill-current w-5 h-5"
+            class="swap-off fill-indigo-500 w-5 h-5"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >
