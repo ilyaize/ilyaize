@@ -5,9 +5,10 @@
       <div class="flex-1 py-5">
         <NuxtLink class="flex" :to="localPath('/')">
           <img src="../assets/logo.svg" class="h-12" />
-          <a class="px-4 pt-2 normal-case font-bold text-xl">{{
-            $t("title")
-          }}</a></NuxtLink
+          <a
+            class="px-4 pt-2 normal-case font-bold text-xl bg-gradient-to-r from-indigo-500 to-pink-400 bg-clip-text text-transparent"
+            >{{ $t("title") }}</a
+          ></NuxtLink
         >
       </div>
       <div class="hidden md:flex">
