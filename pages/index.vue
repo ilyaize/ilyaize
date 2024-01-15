@@ -27,7 +27,11 @@ const localPath = useLocalePath();
           <p class="mb-5">
             {{ $t("home_p2") }}
           </p>
-          <a href="#works" class="btn btn-primary">{{ $t("home_btn") }}</a>
+          <NuxtLink
+            :to="localPath('/work')"
+            class="btn text-white font-bold text-xl btn-wide btn-lg bg-gradient-to-r from-indigo-400 to-fuchsia-600"
+            >{{ $t("home_btn") }}</NuxtLink
+          >
         </div>
         <div class="flex flex-wrap justify-center gap-10"></div>
       </section>
@@ -39,7 +43,9 @@ const localPath = useLocalePath();
         <h2 class="text-4xl font-bold mb-2">
           {{ $t("about_title") }}
         </h2>
-        <p class="mb-4">{{ $t("about_tag") }}</p>
+        <p class="mb-4 relative px-3 py-1 text-sm leading-6 text-secondary">
+          {{ $t("about_tag") }}
+        </p>
       </div>
       <div class="flex flex-wrap justify-center">
         <div class="max-w-lg">
@@ -57,7 +63,9 @@ const localPath = useLocalePath();
     <section id="skills" class="bg-base-200 py-20">
       <div class="text-center">
         <h2 class="text-4xl font-bold mb-2">{{ $t("skills_title") }}</h2>
-        <p class="mb-12">{{ $t("skills_tag") }}</p>
+        <p class="mb-12 relative px-3 py-1 text-sm leading-6 text-secondary">
+          {{ $t("skills_tag") }}
+        </p>
       </div>
       <div class="flex flex-wrap justify-center gap-10">
         <!-- Skill Item -->
@@ -94,17 +102,18 @@ const localPath = useLocalePath();
     <!-- Testimonials Section (Optional) -->
     <section id="testimonials" class="py-20">
       <div class="text-center">
-        <h2 class="text-4xl font-bold mb-2">Testimonials</h2>
-        <p class="mb-4">What people say about my work.</p>
+        <h2 class="text-4xl font-bold mb-2">{{ $t("testimonials_title") }}</h2>
+        <p class="mb-4 text-sm leading-6 text-secondary">
+          {{ $t("testimonials_tag") }}
+        </p>
       </div>
       <div class="flex flex-wrap justify-center">
         <!-- Testimonial Item -->
         <div class="max-w-lg">
           <blockquote>
-            "Ilya's work on our web project was outstanding. The attention to
-            detail and innovative approach were exactly what we needed."
+            {{ $t("testimonials_p1") }}
           </blockquote>
-          <cite>– Michael Amar, Bnei Adam</cite>
+          <cite>{{ $t("testimonials_p2") }}</cite>
         </div>
       </div>
     </section>
@@ -112,26 +121,16 @@ const localPath = useLocalePath();
     <!-- Contact Call-to-Action (Optional) -->
     <section id="contact-cta" class="py-20">
       <div class="text-center">
-        <h2 class="text-4xl font-bold mb-2">Let's Work Together</h2>
-        <p class="mb-4">
-          Interested in collaborating or learning more about my services?
+        <h2 class="text-4xl font-bold mb-2">{{ $t("cta_title") }}</h2>
+        <p class="mb-4 text-sm leading-6 text-secondary">
+          {{ $t("cta_tag") }}
         </p>
-        <a href="#contact" class="btn btn-primary">Contact Me</a>
+        <NuxtLink
+          :to="localPath('/contact')"
+          class="btn text-white font-bold text-xl btn-wide btn-lg bg-gradient-to-r from-indigo-400 to-fuchsia-600"
+          >{{ $t("nav_contact") }}</NuxtLink
+        >
       </div>
     </section>
-
-    <!-- Optional: Additional Content Sections -->
-    <!-- ... -->
-  </div>
-  <div class="py-10 flex justify-center">
-    <div class="max-w-2xl">
-      <h1 class="text-5xl font-bold"></h1>
-
-      <p class="py-6">
-        {{ $t("home_p1") }}
-      </p>
-
-      <button class="btn btn-primary">{{ $t("home_btn") }}</button>
-    </div>
   </div>
 </template>

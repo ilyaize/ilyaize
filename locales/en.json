@@ -14,7 +14,7 @@
   "home_p2": "Whether you're here for professional collaboration or just to explore, I invite you to take a look at my projects, learn about my skills, and discover how my work can make a difference in the ever-evolving landscape of web technology.",
 
   "about_title": "About me:",
-  "about_tag": "A little bit more about who I am and what I do...",
+  "about_tag": "A little bit more about who I am and what I do.",
   "about_p1": "I am a passionate Web Developer with a knack for creating engaging and efficient user experiences. With a focus on modern technologies and continuous learning, I aim to bring innovative solutions to the digital world. My journey in web development began over 10 years ago, driven by a deep interest in how web technologies can transform ideas into reality.",
   "about_p2": "When I'm not coding, I enjoy playing the guitar, playing chess, drawing, and learning new things, all of which I believe contributes to my creativity and problem-solving skills in my professional work.",
 
@@ -27,9 +27,19 @@
   "skills_c3.1": "AI Interaction Strategist",
   "skills_c3.2": "Adept in the art and science of crafting precise, effective language prompts for AI systems. Specialize in optimizing user-AI interactions, ensuring seamless, intuitive, and productive engagements. My work in this area has consistently enhanced AI system responsiveness and user experience satisfaction, demonstrating a keen understanding of both AI capabilities and user needs.",
 
+  "testimonials_title": "Testimonials:",
+  "testimonials_tag": "What people say about my work.",
+  "testimonials_p1": "\"Ilya's work on our web project was outstanding. The attention to detail and innovative approach were exactly what we needed.\"",
+  "testimonials_p2": "– Michael Amar, Bnei Adam",
+
+  "cta_title": "Let's Work Together",
+  "cta_tag": "Interested in collaborating or learning more about my services?",
+
   "work_title": "Work",
   "work_btn": "Work",
 
   "contact_title": "Contact",
-  "contact_btn": "Contact"
+  "contact_btn": "Contact",
+
+  "footer_txt": "2024 Ilya Aizenberg. All rights reserved."
 }
