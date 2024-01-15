@@ -12,9 +12,17 @@ const localPath = useLocalePath();
             class="h-60 rounded-full mx-auto mb-8 shadow-2xl"
             alt="Profile Photo"
           />
-          <h1 class="mb-5 text-5xl font-bold">{{ $t("home_title") }}</h1>
+          <h1
+            class="mb-5 text-5xl font-bold bg-gradient-to-r from-indigo-400 to-fuchsia-600 bg-clip-text text-transparent"
+          >
+            {{ $t("home_title") }}
+          </h1>
           <p class="mb-5">
-            {{ $t("home_p1") }}
+            {{ $t("home_p1.1")
+            }}<span
+              class="font-bold bg-gradient-to-r from-indigo-400 to-fuchsia-600 bg-clip-text text-transparent"
+              >{{ $t("home_p1.2") }}</span
+            >{{ $t("home_p1.3") }}
           </p>
           <p class="mb-5">
             {{ $t("home_p2") }}
@@ -28,23 +36,18 @@ const localPath = useLocalePath();
     <!-- About Me Section -->
     <section id="about" class="py-36">
       <div class="text-center">
-        <h2 class="text-4xl font-bold mb-2">About Me</h2>
-        <p class="mb-4">A little bit more about who I am and what I do.</p>
+        <h2 class="text-4xl font-bold mb-2">
+          {{ $t("about_title") }}
+        </h2>
+        <p class="mb-4">{{ $t("about_tag") }}</p>
       </div>
       <div class="flex flex-wrap justify-center">
         <div class="max-w-lg">
           <p>
-            I am a passionate Web Developer with a knack for creating engaging
-            and efficient user experiences. With a focus on modern technologies
-            and continuous learning, I aim to bring innovative solutions to the
-            digital world. My journey in web development began over 10 years
-            ago, driven by a deep interest in how web technologies can transform
-            ideas into reality.
+            {{ $t("about_p1") }}
           </p>
           <p class="pt-5">
-            When I'm not coding, I enjoy playing the guitar, chess, drawing, and
-            learning new things, which I believe contributes to my creativity
-            and problem-solving skills in my professional work.
+            {{ $t("about_p2") }}
           </p>
         </div>
       </div>
@@ -53,40 +56,34 @@ const localPath = useLocalePath();
     <!-- Skills Section -->
     <section id="skills" class="bg-base-200 py-20">
       <div class="text-center">
-        <h2 class="text-4xl font-bold mb-2">My Skills</h2>
-        <p class="mb-4">The tools and technologies I excel in.</p>
+        <h2 class="text-4xl font-bold mb-2">{{ $t("skills_title") }}</h2>
+        <p class="mb-12">{{ $t("skills_tag") }}</p>
       </div>
       <div class="flex flex-wrap justify-center gap-10">
         <!-- Skill Item -->
         <div class="card w-96 bg-base-100 shadow-xl">
           <div class="card-body">
-            <h3 class="card-title">Frontend Development</h3>
+            <h3 class="card-title">{{ $t("skills_c1.1") }}</h3>
             <p>
-              Expertise in HTML, CSS, JavaScript, and frameworks like Vue.js and
-              Nuxt. I focus on crafting responsive and accessible user
-              interfaces.
+              {{ $t("skills_c1.2") }}
             </p>
           </div>
         </div>
         <!-- Skill Item -->
         <div class="card w-96 bg-base-100 shadow-xl">
           <div class="card-body">
-            <h3 class="card-title">Backend Development</h3>
+            <h3 class="card-title">{{ $t("skills_c2.1") }}</h3>
             <p>
-              Proficient in Node.js and PHP, I develop robust and scalable
-              server-side applications. I'm experienced in working with SQL and
-              NoSQL databases.
+              {{ $t("skills_c2.2") }}
             </p>
           </div>
         </div>
         <!-- Skill Item -->
         <div class="card w-96 bg-base-100 shadow-xl">
           <div class="card-body">
-            <h3 class="card-title">Project Management</h3>
+            <h3 class="card-title">{{ $t("skills_c3.1") }}</h3>
             <p>
-              Skilled in Agile methodologies, I excel in managing projects from
-              concept to deployment, ensuring timely delivery and quality
-              results.
+              {{ $t("skills_c3.2") }}
             </p>
           </div>
         </div>

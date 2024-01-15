@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <header>
     <!-- Navigation Bar -->
     <nav class="navbar">
       <div class="flex-1 py-5">
@@ -76,7 +76,7 @@
       </button>
     </nav>
     <div v-show="isMenuVisible" class="md:hidden flex justify-center">
-      <div class="space-y-3 pt-4">
+      <div class="space-y-3 pt-4 menu-vertical">
         <NuxtLink :to="localPath('/')" class="btn btn-link no-underline">{{
           $t("nav_home")
         }}</NuxtLink>
@@ -94,7 +94,7 @@
           >{{ $t("nav_contact") }}</NuxtLink
         >
         <LangSwitcher />
-        <label class="swap swap-rotate">
+        <label class="swap swap-rotate p-4">
           <!-- this hidden checkbox controls the state -->
           <input
             type="checkbox"
@@ -126,7 +126,7 @@
         </label>
       </div>
     </div>
-  </div>
+  </header>
 </template>
 
 <script setup>

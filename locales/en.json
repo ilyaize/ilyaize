@@ -8,11 +8,24 @@
 
   "home_title": "Hello there,",
   "home_btn": "View My Works",
-  "home_p1": "I'm Ilya Aizenberg, a creative professional specialized in Web Development. Welcome to my portfolio where I showcase my journey through coding, creativity, and problem-solving in the digital world.",
+  "home_p1.1": "I'm ",
+  "home_p1.2": "Ilya Aizenberg",
+  "home_p1.3": ", a creative professional specialized in Web Development. Welcome to my portfolio where I showcase my journey through coding, creativity, and problem-solving in the digital world.",
   "home_p2": "Whether you're here for professional collaboration or just to explore, I invite you to take a look at my projects, learn about my skills, and discover how my work can make a difference in the ever-evolving landscape of web technology.",
 
-  "about_title": "About",
-  "about_btn": "About",
+  "about_title": "About me:",
+  "about_tag": "A little bit more about who I am and what I do...",
+  "about_p1": "I am a passionate Web Developer with a knack for creating engaging and efficient user experiences. With a focus on modern technologies and continuous learning, I aim to bring innovative solutions to the digital world. My journey in web development began over 10 years ago, driven by a deep interest in how web technologies can transform ideas into reality.",
+  "about_p2": "When I'm not coding, I enjoy playing the guitar, playing chess, drawing, and learning new things, all of which I believe contributes to my creativity and problem-solving skills in my professional work.",
+
+  "skills_title": "My Skills:",
+  "skills_tag": "The tools and technologies I excel in.",
+  "skills_c1.1": "Frontend Development Virtuoso",
+  "skills_c1.2": "Possess a deep and nuanced understanding of frontend technologies, including HTML, CSS, JavaScript, and advanced frameworks like Vue.js and Nuxt. Renowned for developing responsive, accessible, and visually appealing user interfaces. Proven track record in enhancing website usability and aesthetics, leading to significant improvements in user engagement and satisfaction.",
+  "skills_c2.1": "Unicorn Designer",
+  "skills_c2.2": "An exceptional fusion of imaginative design and technical coding skills. Known for pioneering innovative user experiences and enchanting interfaces. Expertise in translating fantastical ideas into tangible, user-friendly digital solutions. This unique blend of creativity and technical acumen positions me at the forefront of digital design innovation.",
+  "skills_c3.1": "AI Interaction Strategist",
+  "skills_c3.2": "Adept in the art and science of crafting precise, effective language prompts for AI systems. Specialize in optimizing user-AI interactions, ensuring seamless, intuitive, and productive engagements. My work in this area has consistently enhanced AI system responsiveness and user experience satisfaction, demonstrating a keen understanding of both AI capabilities and user needs.",
 
   "work_title": "Work",
   "work_btn": "Work",
