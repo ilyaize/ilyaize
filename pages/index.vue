@@ -60,7 +60,7 @@ const localPath = useLocalePath();
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="bg-base-200 py-20">
+    <section id="skills" class="md:bg-base-200 md:rounded-3xl py-20">
       <div class="text-center">
         <h2 class="text-4xl font-bold mb-2">{{ $t("skills_title") }}</h2>
         <p class="mb-12 relative px-3 py-1 text-sm leading-6 text-secondary">
