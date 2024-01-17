@@ -36,9 +36,11 @@
   "cta_tag": "Interested in collaborating or learning more about my services?",
 
   "work_title": "Work",
+  "work_p1": "Work",
   "work_btn": "Work",
 
   "contact_title": "Contact",
+  "contact_p1": "Contact",
   "contact_btn": "Contact",
 
   "footer_txt": "2024 Ilya Aizenberg. All rights reserved."
