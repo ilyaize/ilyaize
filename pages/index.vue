@@ -13,8 +13,8 @@ const localPath = useLocalePath();
           </h1>
           <p class="mb-5">
             {{ $t('home_p1.1') }}
-            <span class="bg-gradient-to-r from-indigo-400 to-fuchsia-600 bg-clip-text font-bold text-transparent">{{ $t('home_p1.2') }}</span>
-            {{ $t('home_p1.3') }}
+            <!-- KEEP THIS ONE LINE -->
+            <span class="bg-gradient-to-r from-indigo-400 to-fuchsia-600 bg-clip-text font-bold text-transparent">{{ $t('home_p1.2') }}</span>{{ $t('home_p1.3') }}
           </p>
           <p class="mb-5">
             {{ $t('home_p2') }}
