@@ -7,14 +7,14 @@ const localPath = useLocalePath();
     <div class="hero pt-20">
       <section class="max-w-6xl">
         <div class="max-w-lg text-center">
-          <img src="../assets/profile.png" class="mx-auto mb-8 h-60 rounded-full shadow-2xl" alt="Profile Photo" />
+          <img src="../assets/profile.webp" class="mx-auto mb-8 h-60 rounded-full shadow-2xl" alt="Profile Photo" />
           <h1 class="mb-5 bg-gradient-to-r from-indigo-400 to-fuchsia-600 bg-clip-text text-5xl font-bold text-transparent">
             {{ $t('home_title') }}
           </h1>
           <p class="mb-5">
             {{ $t('home_p1.1') }}
-            <!-- KEEP THIS ONE LINE -->
-            <span class="bg-gradient-to-r from-indigo-400 to-fuchsia-600 bg-clip-text font-bold text-transparent">{{ $t('home_p1.2') }}</span>{{ $t('home_p1.3') }}
+            <span class="bg-gradient-to-r from-indigo-400 to-fuchsia-600 bg-clip-text font-bold text-transparent">{{ $t('home_p1.2') }}</span>
+            {{ $t('home_p1.3') }}
           </p>
           <p class="mb-5">
             {{ $t('home_p2') }}
